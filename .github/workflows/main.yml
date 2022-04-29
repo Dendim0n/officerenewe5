@@ -37,8 +37,8 @@ jobs:
         tail run.log   
     - name: Commit log
       env:
-        NAME: renew
-        EMAIL: renew@qim1ng.onmicrosoft.com
+        NAME: Qim1ng
+        EMAIL: rqiming@live.cn
       run: |
         git config --global user.name "$NAME"
         git config --global user.email "$EMAIL"
